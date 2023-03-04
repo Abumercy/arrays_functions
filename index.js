@@ -83,7 +83,7 @@ function maxVal(numbers) {
   }
   const numbers = [5, 7, 10, 2, 8, 4];
 const max = maxVal(numbers);
-console.log(max);  //Output:  10
+console.log("Maximum value is " + max);  //Output: Maximum value is 10
 
 
 
@@ -96,6 +96,6 @@ function valTimesIndex(arr) {
 	return arr.map((val, index) => val * index);
   }
 const numbers = [2, 4, 6, 8];
-const result = valTimesIndex(numbers);
+const result = valTimesIgndex(numbers);
 console.log(result); //Output:  [0, 4, 12, 24]
 
